@@ -2,15 +2,17 @@ using UnityEngine;
 
 namespace SOLID.SingletonResponsibilitiy
 {
-    [RequireComponent(typeof(PlayerAudio),typeof(PlayerInput))]
-    [RequireComponent(typeof(PlayerMovement),typeof(PlayerHealth))]
+    [RequireComponent(typeof(PlayerAudio), typeof(PlayerInput))]
+    [RequireComponent(typeof(PlayerMovement), typeof(PlayerHealth))]
     public class Player : MonoBehaviour
     {
         #region Private Fields
+
         [SerializeField] private PlayerAudio playerAudio;
         [SerializeField] private PlayerInput playerInput;
         [SerializeField] private PlayerMovement playerMovement;
         [SerializeField] private PlayerHealth playerHealth;
+
         #endregion
 
         #region Unity Methods
@@ -22,6 +24,7 @@ namespace SOLID.SingletonResponsibilitiy
             playerMovement = GetComponent<PlayerMovement>();
             playerHealth = GetComponent<PlayerHealth>();
         }
+
         #endregion
     }
 }

@@ -5,7 +5,9 @@ namespace SOLID.SingletonResponsibilitiy
     public class PlayerInput : MonoBehaviour
     {
         #region Private Fields
+
         [SerializeField] private string inputAxisName;
+
         #endregion
 
         #region Unity Methods

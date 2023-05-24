@@ -7,6 +7,7 @@ namespace SOLID.SingletonResponsibilitiy
         #region Private Fields
 
         private AudioSource _hitSfx;
+
         #endregion
 
         #region Unity Methods

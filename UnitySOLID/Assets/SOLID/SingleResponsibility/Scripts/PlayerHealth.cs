@@ -36,6 +36,5 @@ namespace SOLID.SingletonResponsibilitiy
         }
 
         #endregion
-
     }
 }

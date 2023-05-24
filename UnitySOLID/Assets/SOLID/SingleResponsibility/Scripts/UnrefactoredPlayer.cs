@@ -10,7 +10,7 @@ namespace SOLID.SingletonResponsibilitiy
         private float _yPosition;
         private AudioSource _hitSfx;
         private float _health;
-        
+
         public float Health
         {
             get
@@ -45,14 +45,13 @@ namespace SOLID.SingletonResponsibilitiy
 
             _yPosition = Mathf.Clamp(_yPosition + delta, -1, 1);
 
-            transform.position = new Vector3(transform.position.x, _yPosition * _positionMultiplier, transform.position.z);
+            transform.position =
+                new Vector3(transform.position.x, _yPosition * _positionMultiplier, transform.position.z);
         }
 
         private void OnTriggerEnter(Collider other)
         {
             _hitSfx.Play();
         }
-        
-        
     }
 }
