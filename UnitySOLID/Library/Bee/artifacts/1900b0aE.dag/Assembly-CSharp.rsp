@@ -368,6 +368,14 @@
 "Assets/SOLID/3 - LiskovSubstitution/Scripts/Parrot.cs"
 "Assets/SOLID/3 - LiskovSubstitution/Scripts/Penguin.cs"
 "Assets/SOLID/3 - LiskovSubstitution/Scripts/Unrefactored/Bird.cs"
+"Assets/SOLID/4 - Interface Segregation/Scripts/EnemyUnit.cs"
+"Assets/SOLID/4 - Interface Segregation/Scripts/IDamageable.cs"
+"Assets/SOLID/4 - Interface Segregation/Scripts/IExplodable.cs"
+"Assets/SOLID/4 - Interface Segregation/Scripts/IMovable.cs"
+"Assets/SOLID/4 - Interface Segregation/Scripts/IRestorable.cs"
+"Assets/SOLID/4 - Interface Segregation/Scripts/IUnitStats.cs"
+"Assets/SOLID/4 - Interface Segregation/Scripts/Turret.cs"
+"Assets/SOLID/4 - Interface Segregation/Scripts/Unrefactored/IUnitStats_Unrefactored.cs"
 -langversion:9.0
 
 /deterministic
